@@ -1,0 +1,23 @@
+{
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder}/sources/poky/bitbake/lib",
+        "${workspaceFolder}/sources/poky/meta/lib",
+        "${workspaceFolder}/soburces/poky/bitbake/lib",
+        "${workspaceFolder}/soburces/poky/meta/lib"
+    ],
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/sources/poky/bitbake/lib",
+        "${workspaceFolder}/sources/poky/meta/lib",
+        "${workspaceFolder}/soburces/poky/bitbake/lib",
+        "${workspaceFolder}/soburces/poky/meta/lib"
+    ],
+    "files.associations": {
+        "*.conf": "bitbake",
+        "*.inc": "bitbake"
+    },
+    "bitbake.disableDevtoolDebugBuild": true,
+    "bitbake.disableEmbeddedLanguagesFiles": false,
+    "bitbake.disableConfigModification": false,
+    "reportMissingImports": false,
+    "bitbake.pathToBitbakeFolder": "${workspaceFolder}/sources/poky/bitbake"
+}
