@@ -10,7 +10,7 @@ PACKAGE_INSTALL += " \
     util-linux \
     mtd-utils \
     tar \
-    core-utils
+    coreutils \
 "
 
 INITRAMFS_FSTYPES = "cpio.gz"
