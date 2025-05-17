@@ -14,9 +14,12 @@ PACKAGE_INSTALL += " \
 "
 
 INITRAMFS_FSTYPES = "cpio.gz"
+IMAGE_FSTYPES:remove = "rpi-sdimg"
+
 IMAGE_FSTYPES:pn-${INITRAMFS_IMAGE} = "${INITRAMFS_FSTYPES}"
 
 BOOT_SPACE = "1073741"
 INITRAMFS_MAXSIZE = "315400"
 
 IMAGE_FSTYPES:remove = "wic.qcow2"
+IMAGE_INSTALL += "recover_scripts"
